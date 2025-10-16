@@ -28,7 +28,7 @@ jobs:
       - name: Run scraper action
         uses: windy-civi/opencivicdata-blockchain-transformer/actions/scrape@main
         with:
-          state: wy #UPDATE STATE
+          state: usa #UPDATE STATE
           github-token: ${{ secrets.GITHUB_TOKEN }}
           use-scrape-cache: ${{ inputs.use-scrape-cache }}
           force-update: ${{ inputs.force-update }}
